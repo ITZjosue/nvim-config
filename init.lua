@@ -13,5 +13,3 @@ require("plugins-config.lsp.lsp-config")
 require("plugins-config.lsp.lspsaga")
 require("plugins-config.treesitter")
 require("plugins-config.gitsigns")
-
--- TEST
