@@ -21,21 +21,23 @@ vim.cmd([[
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
+  -- nvim color schemes
   use 'folke/tokyonight.nvim'
-  -- use 'foo1/bar1.nvim'
-  -- use 'foo2/bar2.nvim'
+  use { "catppuccin/nvim", as = "catppuccin" }
+
+  use 'fatih/vim-go'
+  use 'ray-x/go.nvim'
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
   use {
-  	'nvim-telescope/telescope.nvim', tag = '0.1.2',
+  	'nvim-telescope/telescope.nvim', branch = '0.1.x',
 -- or                            , branch = '0.1.x',
   	requires = { {'nvim-lua/plenary.nvim'} }
 	}
-  
+  -- icons
+  use 'nvim-tree/nvim-web-devicons'
+
   use {
-  'nvim-tree/nvim-tree.lua',
-  requires = {
-    'nvim-tree/nvim-web-devicons', -- optional
-    },
+    'nvim-tree/nvim-tree.lua',
   }
   -- to navigate between splitted windows
   use 'christoomey/vim-tmux-navigator'
@@ -46,7 +48,6 @@ return require('packer').startup(function(use)
   -- lualine
   use {
   'nvim-lualine/lualine.nvim',
-  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
   -- autocompletion
   use 'neovim/nvim-lspconfig'
@@ -61,15 +62,20 @@ return require('packer').startup(function(use)
     dependencies = { "rafamadriz/friendly-snippets" },
   }
   use 'saadparwaiz1/cmp_luasnip'
+  
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
 
   -- managin & intalling lsp servers
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
   }
   use 'hrsh7th/cmp-nvim-lsp'
-  use {"glepnir/lspsaga.nvim",requires = {"nvim-treesitter/nvim-treesitter"}}
+  
+  use {"nvimdev/lspsaga.nvim"}
   use 'onsails/lspkind.nvim'
   -- symbols autocompletion
   use {

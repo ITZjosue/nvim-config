@@ -56,7 +56,7 @@ lspconfig.tsserver.setup {
   capabilities = capabilities
 }
 
-lspconfig.pyright.setup {
+lspconfig.pyre.setup {
   capabilities = capabilities
 }
 
@@ -72,4 +72,18 @@ lspconfig.rust_analyzer.setup {
   },
 }
 
-lspconfig.svlangserver.setup{}
+lspconfig.gopls.setup{
+  capabilities = capabilities,
+  on_attach = on_attach
+}
+
+lspconfig.golangci_lint_ls.setup{
+  capabilities = capabilities,
+  on_attach = on_attach,
+  filetypes={'go','gomod'}
+}
+
+lspconfig.svlangserver.setup{
+  capabilities = capabilities,
+  on_attach = on_attach
+}
