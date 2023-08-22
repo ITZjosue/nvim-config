@@ -11,6 +11,7 @@ require("mason-lspconfig").setup({
     "pyre",
     "svelte",
     "lua_ls",
+    "pyright"
   },
 })
 -- local mason_status, mason = pcall(require, "mason")

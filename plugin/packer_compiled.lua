@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["austere.vim"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/austere.vim",
+    url = "https://github.com/LuRsT/austere.vim"
+  },
   catppuccin = {
     loaded = true,
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["fogbell.vim"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/fogbell.vim",
+    url = "https://github.com/jaredgorski/fogbell.vim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -149,6 +159,11 @@ _G.packer_plugins = {
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["nord.nvim"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/nord.nvim",
+    url = "https://github.com/shaunsingh/nord.nvim"
+  },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
@@ -180,10 +195,25 @@ _G.packer_plugins = {
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
+  ["nvim-ufo"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/nvim-ufo",
+    url = "https://github.com/kevinhwang91/nvim-ufo"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["onedark.vim"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
+  },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -194,6 +224,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["promise-async"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/promise-async",
+    url = "https://github.com/kevinhwang91/promise-async"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
@@ -209,6 +244,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["transparent.nvim"] = {
+    loaded = true,
+    path = "/Users/josuelamas/.local/share/nvim/site/pack/packer/start/transparent.nvim",
+    url = "https://github.com/xiyaowong/transparent.nvim"
   },
   ["vim-go"] = {
     loaded = true,

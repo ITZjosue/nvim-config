@@ -29,3 +29,5 @@ keymap.set("n","<leader>fb",":Telescope buffers<CR>")
 keymap.set("n","<leader>fh",":Telescope help_tags<CR>")
 
 keymap.set("n","<leader>e",":NvimTreeToggle<CR>")
+
+-- ufo (function folding)
